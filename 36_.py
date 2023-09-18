@@ -6,14 +6,14 @@
 #Hint: Create a function that takes a file path as input, reads the file, splits the content, and counts the items of the split output.
 
 
-# with open("C:\\Users\\GayCalaranan.000\\Documents\\Programming\\Udemy - Python - 100 Exercises\\egi_solutions\\words1.txt", 'r') as my_File:
-#     my_File_list = [word.strip(' ') for word in my_File.read().split()]
-# print(len(my_File_list)) #10
+with open("C:\\Users\\GayCalaranan.000\\Documents\\Programming\\Udemy - Python - 100 Exercises\\egi_solutions\\words1.txt", 'r') as my_File:
+    my_File_list = [word.strip(' ') for word in my_File.read().split()]
+print(len(my_File_list)) #10
 
 
-# with open(r"C:\Users\GayCalaranan.000\\Documents\Programming\Udemy - Python - 100 Exercises\egi_solutions\words1.txt", 'r') as my_File:
-#     my_File_list = [word.strip(' ') for word in my_File.read().split()]
-# print(len(my_File_list)) #10
+with open(r"C:\Users\GayCalaranan.000\\Documents\Programming\Udemy - Python - 100 Exercises\egi_solutions\words1.txt", 'r') as my_File:
+    my_File_list = [word.strip(' ') for word in my_File.read().split()]
+print(len(my_File_list)) #10
 
 #References:
 #https://www.programiz.com/python-programming/file-operation
