@@ -12,3 +12,16 @@ for letter in string.ascii_lowercase:
 
 print(letter_list)
 
+
+#ardit answer
+import glob
+
+letters_ardit = []
+file_list = glob.glob('44_letters_ardit/*.txt')
+
+for filename in file_list:
+    with open(filename, 'r') as file:
+        letters_ardit.append(file.read().strip('\n'))
+
+print(letters_ardit)
+#['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
