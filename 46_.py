@@ -25,3 +25,18 @@ for filename in file_list:
 
 print(letters_ardit)
 #['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+
+help(glob.glob)
+# Help on function glob in module glob:
+
+# glob(pathname, *, recursive=False)
+#     Return a list of paths matching a pathname pattern.
+    
+#     The pattern may contain simple shell-style wildcards a la
+#     fnmatch. However, unlike fnmatch, filenames starting with a
+#     dot are special cases that are not matched by '*' and '?'
+#     patterns.
+    
+#     If recursive is true, the pattern '**' will match any files and
+#     zero or more directories and subdirectories.
