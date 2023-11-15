@@ -19,9 +19,12 @@ d = {"employees":[{"firstName": "John", "lastName": "Doe"},
 
 #Hint: Access employees and use append to apply a new dict with keys firstName, and lastName  and the new values for those keys.
 
+#egi solution: slightly different but results are the same. {} means dict data type
 d['employees'].append({'firstName': 'Albert', 'lastName': 'Bert'})
 print(d)
-print(type(d))
+print(type(d)) #class 'dict'>
+
+
 
 ################################
 #ardit Answer: 
